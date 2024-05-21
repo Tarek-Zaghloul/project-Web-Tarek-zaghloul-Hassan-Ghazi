@@ -1,0 +1,77 @@
+body{
+    background-image: url(images/stock2-vector-football-soccer-player-man-in-action-isolated-white-background-vector-illustration-2114748560.jpg);
+}
+.login-card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #e8e8e8;
+    box-shadow: 2px 2px 10px #ccc;
+  }
+  #Login{
+     display: flex;
+  flex-wrap: wrap;
+  }  
+  #Login>div{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 768px) {
+    #Login > div {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #Login > div {
+      width: 25%;
+    }
+  }
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px
+  }
+  
+  .card-header .log {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ccc;
+    color: black;
+  }
+  
